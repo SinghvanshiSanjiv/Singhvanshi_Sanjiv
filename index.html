@@ -1,62 +1,85 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>
-            slider
-        </title>
-        <style>
-            #slider{
-                overflow: hidden;
-            }
-            #slider figure{
-                position: relative;
-                width: 500%;
-                margin: 0%;
-                left: 0%;
-                animation: 10s slider infinite;
-            }
-            #slider figure img{
-                float: left;
-                width: 20%;
-                height: 100vh;
-            }
-            @keyframes slider{
-                0%{
-                    left: 0%;
-                }
-                20%{
-                    left: 0%;
-                }
-                25%{
-                    left: -100%;
-                }
-                45%{
-                    left: -100%;
-                }
-                50%{
-                    left: -200%;
-                }
-                70%{
-                    left: -200%;
-                }
-                75%{
-                    left: -300%;
-                }
-                90%{
-                    left: -300%;
-                }
-                
-            }
-        </style>
-    </head>
-    <body>
-        <div id="slider">
-            <figure>
-                <img src="bangalore.jpg">
-                <img src="ap.jpg">
-                <img src="tamil.jpg">
-                <img src="mumbai.jpg">
-            </figure>
-        </div>
-    </body>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Parallax Website</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+          <h1>DarkCode-Tech</h1>
+          <nav>
+              <ul>
+                  <li><a href="index.html">Home</a></li>
+                  <li><a href="who.html">Who We Are</a></li>
+                  <li><a href="do.html">What We Do</a></li>
+                  <li><a href="Careers.html">Careers</a></li>
+                  <li><a href="about.html">About Us</a></li>
+              </ul>
+          </nav>
+      </div>
+  </header>
+    <section class="pimg1">
+      <div class="ptext">
+        <span class="textBg">DarkCode-Tech</span>
+      </div>
+    </section>
+    <section class="section section-light">
+      <h2><b>WHO WE ARE</b></h2>
+      <p>
+        
+      </br>
+        "DarkCode-Tech is an IT services, consulting, and business solutions organization that has been partnering 
+        with many of the world’s largest businesses in their transformation journeys. With a 
+        steadfast commitment to innovation and excellence, we offer comprehensive IT services, strategic consulting, 
+        and tailored business solutions to meet the evolving needs of our clients. Our global presence and extensive 
+        industry expertise enable us to forge strong partnerships with organizations across various sectors, empowering 
+        them to navigate digital transformations with confidence.
+      </p>
+    </section>
+    <section class="pimg2">
+      <div class="ptext">
+        <span class="textBg"> WHAT WE DO </span>
+      </div>
+    </section>
+    <section class="section section-dark">
+      
+      <p>
+        At DarkCode-Tech, we specialize in crafting custom software solutions tailored to modern business needs. 
+        From dynamic web applications to intuitive mobile apps, our team delivers seamless digital experiences. 
+        With expertise in cloud computing, we offer scalable solutions for anytime, anywhere access. We prioritize 
+        user-centric design, creating visually stunning interfaces for enhanced usability. Our software integration 
+        streamlines processes, while our dedicated support ensures optimal performance. Committed to innovation, 
+        we empower businesses to thrive in today's market. Let us be your trusted partner in digital transformation
+      </p>
+    </section>
+    <section class="pimg3">
+      <div class="ptext">
+        <span class="textBg"> Careers</span>
+      </div>
+    </section>
+    <section class="section section-dark">
+      
+      <p>
+        "Crafting tomorrow's digital landscape with relentless innovation and a commitment to excellence. 
+         Our software empowers change, revolutionizing industries and enhancing human experiences.
+         With unwavering dedication, we forge ahead, shaping a brighter future—one line of code at a time."
+      </p>
+    </section>
+    <section class="pimg4">
+      <div class="ptext">
+        <span class="textBg"> About Us </span>
+      </div>
+    </section>
+    
+      <p>
+        "Crafting tomorrow's digital landscape with relentless innovation and a commitment to </br>
+         excellence. Our software empowers change, revolutionizing industries and enhancing </br>
+         human experiences.With unwavering dedication, we forge ahead, shaping a brighter future—one </br>
+         line of code at a time."
+      </p>
+  </body>
 </html>
