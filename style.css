@@ -52,11 +52,7 @@ body {
 .pimg4 {
     background-image: url(image4.jpg.jpg);
     min-height: 400px;
-  }
-  .pimg5 {
-    background-image: url(image5.jpg.jpg);
-    min-height: 400px;
-  }
+}
 .pimg1,
 .pimg2,
 .pimg3,
