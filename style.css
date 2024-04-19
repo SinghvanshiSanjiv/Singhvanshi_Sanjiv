@@ -43,15 +43,15 @@ body {
 }
 .pimg2 {
   background-image: url(image2.jpg.jpg);
-  min-height: 400px;
+  min-height: 100%;
 }
 .pimg3 {
   background-image: url(image3.jpg.jpg);
-  min-height: 400px;
+  min-height: 100%;
 }
 .pimg4 {
-    background-image: url(image4.jpg.jpg);
-    min-height: 400px;
+    background-image: url(image3.jpg.jpg);
+    min-height: 100%;
 }
 .pimg1,
 .pimg2,
